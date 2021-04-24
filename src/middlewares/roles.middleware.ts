@@ -18,7 +18,7 @@ const checkRole = (role: string, _req: Request, _res: Response, _next: NextFunct
     throw new APIError({ message: 'Unauthorized', status: httpStatus.UNAUTHORIZED });
   }
   const token = bearer.replace('Bearer ', '');
-  
+
   const jwtSecret: any = process.env.JWT_SECRET;
 
   jwt.verify(token, jwtSecret, (err: any, payload: any) => {

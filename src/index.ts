@@ -1,6 +1,9 @@
 export { APIError } from './errors';
 
-export { errorHandler } from './handlers';
+export {
+  errorHandler,
+  validatorHandler,
+} from './handlers';
 
 export {
   roleAdmin,

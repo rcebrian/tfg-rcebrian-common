@@ -1,1 +1,1 @@
-export { default } from './APIError';
+export { default as APIError } from './APIError';

@@ -2,5 +2,5 @@ export {
   roleAdmin,
   roleCompany,
   roleMonitor,
-  roleUser
-} from './roles.middleware'
+  roleUser,
+} from './roles.middleware';

@@ -1,4 +1,8 @@
 export {
+  auth,
+} from './auth.middleware';
+
+export {
   roleAdmin,
   roleCompany,
   roleMonitor,

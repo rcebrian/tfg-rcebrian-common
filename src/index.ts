@@ -6,6 +6,7 @@ export {
 } from './handlers';
 
 export {
+  auth,
   roleAdmin,
   roleCompany,
   roleMonitor,

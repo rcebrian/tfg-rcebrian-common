@@ -11,4 +11,5 @@ export {
   roleCompany,
   roleMonitor,
   roleUser,
+  roleUserOrMonitor,
 } from './middlewares';

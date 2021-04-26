@@ -45,3 +45,7 @@ export const roleMonitor = (req: Request, res: Response, next: NextFunction) => 
 export const roleUser = (req: Request, res: Response, next: NextFunction) => {
   checkRole(['ROLE_USER'], req, res, next);
 };
+
+export const roleUserOrMonitor = (req: Request, res: Response, next: NextFunction) => {
+  checkRole(['ROLE_USER', 'ROLE_MONITOR'], req, res, next);
+};

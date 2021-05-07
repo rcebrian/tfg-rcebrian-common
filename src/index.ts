@@ -13,3 +13,11 @@ export {
   roleUser,
   roleUserOrMonitor,
 } from './middlewares';
+
+export {
+  TokenPropertiesEnum,
+} from './enums';
+
+export {
+  getPropertyFromBearerToken,
+} from './utils';

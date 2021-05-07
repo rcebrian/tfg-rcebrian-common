@@ -11,7 +11,7 @@ import { handler } from './main.handler';
  * @param next next function
  * @returns APIError
  */
-export const notFound = (req: Request, res: Response, next: NextFunction) => {
+export const notFoundHandler = (req: Request, res: Response, next: NextFunction) => {
   const err = new APIError({
     message: 'Not found',
     status: httpStatus.NOT_FOUND,

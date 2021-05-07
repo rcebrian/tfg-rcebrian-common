@@ -2,6 +2,7 @@ export { APIError } from './errors';
 
 export {
   errorHandler,
+  notFoundHandler,
   validatorHandler,
 } from './handlers';
 
